@@ -1,0 +1,31 @@
+@use '@styles/variables';
+
+.button {
+  width: 95%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 68.5px;
+  padding-right: 79.5px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  border-radius: 9px;
+  border: solid 2px variables.$background;
+
+  &White {
+    background-color: variables.$white;
+    color: variables.$background;
+  }
+  &Red {
+    background-color: variables.$background;
+    color: variables.$white;
+  }
+  .arrowImg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 19px;
+  }
+}
