@@ -1,0 +1,24 @@
+.mainHeader {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .woohoo {
+    position: relative;
+    top: -27.1px;
+  }
+  .symbol {
+    position: relative;
+    top: -8px;
+  }
+}
+
+.mainTitle {
+  position: absolute;
+  top: 94px;
+  left: 50%;
+  transform: translateX(-50%);
+}
