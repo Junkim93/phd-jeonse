@@ -3,12 +3,11 @@
 .main {
   position: relative;
   width: 100%;
-  height: 100%;
   border-top-left-radius: 11.5px;
   border-top-right-radius: 11.5px;
   background-color: variables.$white;
-  box-shadow: 3.5px 3px 7.5px 0 rgba(33, 33, 33, 0.14);
-  border: solid 1px #1c1b1b;
+  box-shadow: 7px 6px 15px 0 rgba(33, 33, 33, 0.14);
+  border: solid 2px #1c1b1b;
   box-sizing: border-box;
 
   .contents {
@@ -19,23 +18,25 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-      gap: 8px;
       margin-bottom: 32px;
+      & > *:last-child {
+        margin-top: 8px;
+      }
     }
     .sideBtns {
       display: flex;
-      gap: 12px;
       justify-content: center;
+      & > *:first-child {
+        margin-right: 12px;
+      }
     }
   }
   .bar {
-    position: absolute;
+    position: relative;
+    margin: 82px auto 8px auto;
     width: 134px;
     height: 5px;
     border-radius: 100px;
     background-color: #000000;
-    bottom: 8px;
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
