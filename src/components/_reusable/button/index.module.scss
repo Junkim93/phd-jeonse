@@ -4,10 +4,11 @@
   width: 95%;
   box-sizing: border-box;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   position: relative;
-  padding-left: 68.5px;
-  padding-right: 79.5px;
+  padding-left: 19px;
+  padding-right: 19px;
   font-size: 16px;
   font-weight: 500;
   height: 48px;
@@ -23,9 +24,7 @@
     color: variables.$white;
   }
   .arrowImg {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 19px;
+    position: relative;
+    top: -1px;
   }
 }
