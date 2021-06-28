@@ -25,18 +25,11 @@
     }
     .sideBtns {
       display: flex;
+      margin-bottom: 95px;
       justify-content: center;
       & > *:first-child {
         margin-right: 12px;
       }
     }
-  }
-  .bar {
-    position: relative;
-    margin: 82px auto 8px auto;
-    width: 134px;
-    height: 5px;
-    border-radius: 100px;
-    background-color: #000000;
   }
 }

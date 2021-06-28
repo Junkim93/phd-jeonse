@@ -37,7 +37,6 @@ function Main() {
           />
         </div>
       </div>
-      <div className={cls(styles.bar)} />
     </div>
   )
 }
