@@ -16,7 +16,9 @@ function SideButton({ label, onClick, type = 'white' }: ButtonProps) {
   return (
     <button className={cls(styles.button, buttonStyle)} onClick={onClick}>
       <span>{label}</span>
-      {icon !== null ? <img alt="트라이던트 이미지" src={img} /> : null}
+      {icon !== null ? (
+        <img className={cls(styles.img)} alt="트라이던트 이미지" src={img} />
+      ) : null}
     </button>
   )
 }
