@@ -1,3 +1,5 @@
+@use '@styles/variables';
+
 html,
 body,
 #root {
@@ -6,4 +8,5 @@ body,
 }
 body {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  background-color: variables.$background;
 }

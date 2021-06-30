@@ -3,6 +3,7 @@
 .main {
   position: relative;
   width: 100%;
+  min-height: 100%;
   border-top-left-radius: 11.5px;
   border-top-right-radius: 11.5px;
   background-color: variables.$white;
@@ -11,8 +12,7 @@
   box-sizing: border-box;
 
   .contents {
-    padding-left: 39px;
-    padding-right: 39px;
+    padding: 0 39px 30px 39px;
 
     .mainBtns {
       display: flex;
@@ -25,7 +25,6 @@
     }
     .sideBtns {
       display: flex;
-      margin-bottom: 95px;
       justify-content: center;
       & > *:first-child {
         margin-right: 12px;
