@@ -10,15 +10,14 @@
     position: relative;
     top: -27.1px;
   }
+  .mainTitle {
+    position: absolute;
+    top: 94px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .symbol {
     position: relative;
     top: -8px;
   }
-}
-
-.mainTitle {
-  position: absolute;
-  top: 94px;
-  left: 50%;
-  transform: translateX(-50%);
 }
