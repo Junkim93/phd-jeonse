@@ -1,0 +1,10 @@
+@use '@styles/variables';
+
+.bold {
+  font-weight: 700;
+}
+
+.highlight {
+  background-color: variables.$very-light-pink;
+  border-radius: 8.4px;
+}
