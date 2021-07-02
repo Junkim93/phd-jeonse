@@ -1,5 +1,5 @@
 import React from 'react'
-import titleImg from '@assets/title.svg'
+import Title from '@components/_reusable/title/index'
 import jeonseImg from '@assets/phd-jeonse.svg'
 import woohooImg from '@assets/woohoo.svg'
 import styles from './index.module.scss'
@@ -10,7 +10,7 @@ function MainHeader() {
     <header className={cls(styles.mainHeader)}>
       <img className={cls(styles.woohoo)} alt="우후" src={woohooImg} />
       <h1 className={cls(styles.mainTitle)}>
-        <img alt="전세박사" src={titleImg} />
+        <Title />
       </h1>
       <img
         className={cls(styles.symbol)}
