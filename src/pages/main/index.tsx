@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './index.module.scss'
 import cls from 'classnames'
 import MainHeader from '@components/main-header/index'
-import MainDescription from '@components/main-description/index'
 import Button from '@components/_reusable/button/index'
 import SideButton from '@components/_reusable/side-button/index'
 
@@ -11,7 +10,6 @@ function Main() {
     <div className={cls(styles.main)}>
       <MainHeader />
       <div className={cls(styles.contents)}>
-        <MainDescription />
         <div className={cls(styles.mainBtns)}>
           <Button
             label={'부동산 계약 전 십계명'}
@@ -28,11 +26,6 @@ function Main() {
           <SideButton
             label={'제작자의 유언..'}
             type={'gray'}
-            onClick={() => console.info('test')}
-          />
-          <SideButton
-            label={'디자이너는 귀엽'}
-            type={'white'}
             onClick={() => console.info('test')}
           />
         </div>
