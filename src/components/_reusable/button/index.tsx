@@ -12,12 +12,12 @@ interface ButtonProps {
 
 function Button({ label, onClick, type = 'white' }: ButtonProps) {
   const arrow = type === 'white' ? rightArrowRed : rightArrowWhite
-  const buttonStyle = type === 'white' ? styles.buttonWhite : styles.buttonRed
+  const buttonStyle = type === 'white' ? styles.white : styles.red
 
   return (
     <button className={cls(styles.button, buttonStyle)} onClick={onClick}>
-      <span>{label}</span>
-      <img className={cls(styles.arrowImg)} alt="오른쪽 화살표" src={arrow} />
+      <span className={cls(styles.label)}>{label}</span>
+      <img className={cls(styles.arrow__img)} alt="오른쪽 화살표" src={arrow} />
     </button>
   )
 }
