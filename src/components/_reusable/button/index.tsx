@@ -6,7 +6,7 @@ import rightArrowWhite from '@assets/right-arrow-white.svg'
 
 interface ButtonProps {
   label: String
-  onClick: () => void
+  onClick?: () => void
   type?: 'white' | 'red'
 }
 
