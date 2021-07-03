@@ -1,34 +1,22 @@
 @use '@styles/variables';
 
-.main {
-  position: relative;
-  width: 100%;
-  min-height: 100%;
-  border-top-left-radius: 11.5px;
-  border-top-right-radius: 11.5px;
-  background-color: variables.$white;
-  box-shadow: 7px 6px 15px 0 rgba(33, 33, 33, 0.14);
-  border: solid 2px #1c1b1b;
-  box-sizing: border-box;
+.contents {
+  padding: 0 39px 30px 39px;
 
-  .contents {
-    padding: 0 39px 30px 39px;
-
-    .mainBtns {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      margin-bottom: 26px;
-      & > *:last-child {
-        margin-top: 8px;
-      }
+  .mainBtns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 26px;
+    & > *:last-child {
+      margin-top: 8px;
     }
-    .sideBtns {
-      display: flex;
-      justify-content: center;
-      & > *:first-child {
-        margin-right: 12px;
-      }
+  }
+  .sideBtns {
+    display: flex;
+    justify-content: center;
+    & > *:first-child {
+      margin-right: 12px;
     }
   }
 }

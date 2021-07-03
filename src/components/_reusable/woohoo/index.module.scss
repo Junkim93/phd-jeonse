@@ -1,0 +1,13 @@
+.woohoo {
+  position: absolute;
+  top: 103.9px;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 320px) {
+  .woohoo {
+    top: 62.9px;
+  }
+}

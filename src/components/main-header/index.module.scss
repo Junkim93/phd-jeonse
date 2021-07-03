@@ -6,18 +6,11 @@
   align-items: center;
   width: 100%;
 
-  .woohoo {
-    position: relative;
-    top: -19.1px;
-  }
   .mainTitle {
-    position: absolute;
-    top: 89px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 89px;
+    margin-bottom: 42px;
   }
   .symbol {
-    margin-top: 6px;
     margin-bottom: 47px;
   }
 }
