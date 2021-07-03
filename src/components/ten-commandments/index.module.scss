@@ -1,0 +1,15 @@
+.ten_commandments {
+  font-size: 12px;
+  color: #181c1c;
+  padding: 0 20px;
+
+  & > li {
+    line-height: 1.67;
+  }
+  & > li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  li:last-child {
+    margin-bottom: 54px;
+  }
+}
