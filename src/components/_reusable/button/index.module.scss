@@ -4,15 +4,25 @@
   width: 193px;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: relative;
   font-size: 14px;
   font-weight: 500;
   height: 36px;
-  padding-right: 8px;
   border-radius: 9px;
   border: solid 2px variables.$pink;
+  align-items: center;
+  &__default {
+    justify-content: center;
+  }
+  &__route {
+    padding-right: 8px;
+    justify-content: space-between;
+
+    .label {
+      width: 144px;
+      text-align: right;
+    }
+  }
 
   &.white {
     background-color: variables.$white;
@@ -25,9 +35,5 @@
   .arrow__Img {
     position: relative;
     top: -1px;
-  }
-  .label {
-    width: 144px;
-    text-align: right;
   }
 }
