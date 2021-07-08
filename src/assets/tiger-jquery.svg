@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="15" viewBox="0 0 78 15">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-190.000000, -262.000000) translate(190.000000, 262.000000)">
+                <rect width="76.5" height="15" x=".75" fill="#ECECEC" rx="3"/>
+                <text fill="#F5694A" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" letter-spacing="-.34">
+                    <tspan x="3.5" y="9.5">&lt;Tiger Jquery&gt;</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
