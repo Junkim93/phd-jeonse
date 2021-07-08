@@ -5,13 +5,18 @@ import titleSvg from '@assets/title.svg'
 
 interface Props {
   size?: 'small' | 'default'
+  className?: string
 }
 
-function Title({ size = 'default' }: Props) {
+function Title({ size = 'default', className }: Props) {
   const smallClass = size === 'small' ? styles.small : null
 
   return (
-    <img alt="title" src={titleSvg} className={cls(styles.title, smallClass)} />
+    <img
+      alt="title"
+      src={titleSvg}
+      className={cls(styles.title, smallClass, className)}
+    />
   )
 }
 
