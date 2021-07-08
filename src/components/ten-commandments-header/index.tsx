@@ -1,7 +1,7 @@
 import React from 'react'
 import cls from 'classnames'
 import styles from './index.module.scss'
-import keySvg from '@assets/key.svg'
+import keySvg from '@assets/key-rotate.svg'
 import crossSvg from '@assets/cross.svg'
 import checklistBarSvg from '@assets/checklist-bar.svg'
 

@@ -1,23 +1,16 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
-import cls from 'classnames'
 import PaperLayout from '@components/layout/paper/index'
 import TenCommandmentsHeader from '@components/ten-commandments-header/index'
 import TenCommandmentsContents from '@components/ten-commandments/index'
-import CancelButton from '@components/_reusable/cancel-button/index'
+import Button from '@components/_reusable/button/index'
 import styles from './index.module.scss'
 
 function TenCommandments() {
-  const history = useHistory()
-
   return (
-    <PaperLayout>
-      <CancelButton
-        className={cls(styles.cancel)}
-        onClick={() => history.push('/')}
-      />
+    <PaperLayout theme="red" className={styles.commandments__layout}>
       <TenCommandmentsHeader />
       <TenCommandmentsContents />
+      <Button className={styles.download} label="이미지로 저장하고 명심하기" />
     </PaperLayout>
   )
 }

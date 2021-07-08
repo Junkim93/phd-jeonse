@@ -11,14 +11,14 @@ function TenCommandments() {
       </li>
       <li>
         <span className="medium">02. </span>
-        혹하는 마음으로
+        혹하는 마음으로{' '}
         <span className="highlight bold">
-          당일 계약은 하거나 서두르지 않는다.
+          당일 계약을 하거나 서두르지 않는다.
         </span>
       </li>
       <li>
         <span className="medium">03. </span>
-        부동산 중개인, 임대인과 나눌{' '}
+        부동산 중개인, 임대인과의{' '}
         <span className="highlight">모든 이야기는 녹음</span>한다
       </li>
       <li>
@@ -49,9 +49,6 @@ function TenCommandments() {
       <li>
         <span className="medium">09. </span>
         정말 없다면 차라리 월세나 행복주택, 공공임대에 산다.
-        <span className="highlight bold">
-          당일 계약은 하거나 서두르지 않는다.
-        </span>
       </li>
       <li>
         <span className="medium">10. </span>
