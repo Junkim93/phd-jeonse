@@ -1,14 +1,36 @@
 @use '@styles/variables';
 
-.main {
+.paper {
   position: relative;
   width: 100%;
-  min-height: 100%;
-  border-top-left-radius: 11.5px;
-  border-top-right-radius: 11.5px;
+  height: 100%;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
   background-color: variables.$white;
   box-shadow: 7px 6px 15px 0 rgba(33, 33, 33, 0.14);
   border: solid 2px #1c1b1b;
   box-sizing: border-box;
   overflow-y: auto;
+
+  &__padding {
+    padding: 67px 18px 78px 18px;
+  }
+  .cancel {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+}
+
+.title__position {
+  position: absolute;
+  top: 68px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 320px) {
+  .title__position {
+    top: 25px;
+  }
 }

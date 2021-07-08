@@ -1,0 +1,62 @@
+@use '@styles/variables';
+
+.main__bg {
+  width: 100%;
+  height: 100%;
+  padding: 121px 20px 0 20px;
+  box-sizing: border-box;
+  background-color: variables.$pink;
+}
+.paper__bg::before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 109px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 72px);
+  height: 100px;
+  content: '';
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border: 2px solid #1c1b1b;
+  opacity: 0;
+}
+
+.theme__red,
+.theme__white,
+.theme__blue {
+  &.paper__bg::before {
+    opacity: 1;
+  }
+}
+
+.theme__red {
+  &.paper__bg::before {
+    background-color: #f59d88;
+  }
+}
+.theme__white {
+  &.main__bg {
+    background-color: variables.$white;
+  }
+  &.paper__bg::before {
+    background-color: variables.$light-gray;
+  }
+}
+.theme__blue {
+  &.main__bg {
+    background-color: variables.$blue;
+  }
+  &.paper__bg::before {
+    background-color: variables.$light-blue;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__bg {
+    padding-top: 78px;
+  }
+  .paper__bg::before {
+    top: 66px;
+  }
+}
