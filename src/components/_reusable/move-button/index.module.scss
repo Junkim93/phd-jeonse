@@ -1,0 +1,24 @@
+.move_button {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+  display: flex;
+  align-items: center;
+  padding: 10px 9px;
+
+  &.left {
+    justify-content: flex-start;
+    .arrow_img {
+      margin-right: 8px;
+      transform: rotate(180deg);
+    }
+  }
+  &.right {
+    margin-left: auto;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+    .arrow_img {
+      margin-left: 8px;
+    }
+  }
+}
