@@ -12,14 +12,14 @@
   height: 36px;
   padding-right: 8px;
   border-radius: 9px;
-  border: solid 2px variables.$background;
+  border: solid 2px variables.$pink;
 
   &.white {
     background-color: variables.$white;
-    color: variables.$background;
+    color: variables.$pink;
   }
   &.red {
-    background-color: variables.$background;
+    background-color: variables.$pink;
     color: variables.$white;
   }
   .arrow__Img {
