@@ -1,5 +1,4 @@
 import React from 'react'
-import cls from 'classnames'
 import styles from './index.module.scss'
 import PaperLayout from '@components/layout/paper/index'
 import authorSvg from '@assets/tiger-jquery.svg'
